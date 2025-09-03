@@ -74,6 +74,12 @@ parser.add_argument('--three-d-keypoints-torch-root', default=None, type=str, me
                     help='path to three d keypoints torch root')
 parser.add_argument('--rectified-ego-focal-length', default=822, type=int, metavar='N',
                     help='rectified ego focal length')
+
+
+parser.add_argument("config", type=Path, metavar='CONFIG',
+                    help='path to config file')
+parser.add_argument('--accumulation_steps', default=16, type=int)
+parser.add_argument('--num_workers', default=8, type=int)
                     
 
 
