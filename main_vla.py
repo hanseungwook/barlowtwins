@@ -93,14 +93,16 @@ def main():
         args.rank = 0
         args.dist_url = 'tcp://localhost:58472'
         args.world_size = args.ngpus_per_node
-    torch.multiprocessing.spawn(main_worker, (args,), args.ngpus_per_node)
+    # TODO: fix this
+    # torch.multiprocessing.spawn(main_worker, (args,), args.ngpus_per_node)
+    main_worker(0, args)
 
 
 def main_worker(gpu, args):
     args.rank += gpu
-    torch.distributed.init_process_group(
-        backend='nccl', init_method=args.dist_url,
-        world_size=args.world_size, rank=args.rank)
+    # torch.distributed.init_process_group(
+    #     backend='nccl', init_method=args.dist_url,
+    #     world_size=args.world_size, rank=args.rank)
 
     if args.rank == 0:
         args.checkpoint_dir.mkdir(parents=True, exist_ok=True)
