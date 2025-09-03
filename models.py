@@ -6,6 +6,28 @@ from typing import Optional, Tuple
 
 from models_lora import get_layer
 
+
+##### LANGUAGE ACTION ENCODER #####
+class LanguageActionEncoder(nn.Module):
+    def __init__(self, config):
+        super().__init__()
+        self.config = config
+        self.language_emb = nn.Embedding(config.language_vocab_size, config.language_hidden_dim)
+        self.action_emb = nn.Embedding(config.action_vocab_size, config.action_hidden_dim)
+
+        # TODO: add positional encoding
+        self.la_backbone = SiglipEncoder(config)
+        self.post_layernorm = nn.LayerNorm(config.language_hidden_dim + config.action_hidden_dim, eps=config.layer_norm_eps)
+    
+    def forward(self, language_input, action_input):
+        language_emb = self.language_emb(language_input)
+        action_emb = self.action_emb(action_input)
+        la_emb = torch.cat([language_emb, action_emb], dim=1)
+        la_emb = self.la_backbone(la_emb)
+        la_emb = self.post_layernorm(la_emb)
+        return la_emb
+
+
 ##### SIGLIP MODULES #####
 
 class SiglipAttention(nn.Module):

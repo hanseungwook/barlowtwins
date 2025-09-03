@@ -22,6 +22,7 @@ import torchvision
 import torchvision.transforms as transforms
 
 from models import *
+from ego_utils.egodata import EgoExoDatasetFromGTJson
 
 parser = argparse.ArgumentParser(description='Barlow Twins Training')
 parser.add_argument('data', type=Path, metavar='DIR',
@@ -46,6 +47,29 @@ parser.add_argument('--print-freq', default=100, type=int, metavar='N',
                     help='print frequency')
 parser.add_argument('--checkpoint-dir', default='./checkpoint/', type=Path,
                     metavar='DIR', help='path to checkpoint directory')
+
+# model args
+parser.add_argument('--language-vocab-size', default=10000, type=int, metavar='N',
+                    help='language vocabulary size')
+parser.add_argument('--action-vocab-size', default=10000, type=int, metavar='N',
+                    help='action vocabulary size')
+parser.add_argument('--language-hidden-dim', default=1024, type=int, metavar='N',
+                    help='language hidden dimension')
+parser.add_argument('--action-hidden-dim', default=1024, type=int, metavar='N',
+                    help='action hidden dimension')
+parser.add_argument('--layer-norm-eps', default=1e-12, type=float, metavar='N',
+                    help='layer norm epsilon')
+
+# ego data args
+parser.add_argument('--num-subclips-per-video', default=2, type=int, metavar='N',
+                    help='number of subclips per video')
+parser.add_argument('--debug-max-takes', default=1, type=int, metavar='N',
+                    help='number of takes to debug')
+parser.add_argument('--three-d-keypoints-torch-root', default=None, type=str, metavar='N',
+                    help='path to three d keypoints torch root')
+parser.add_argument('--rectified-ego-focal-length', default=822, type=int, metavar='N',
+                    help='rectified ego focal length')
+                    
 
 
 def main():
@@ -87,6 +111,35 @@ def main_worker(gpu, args):
     torch.cuda.set_device(gpu)
     torch.backends.cudnn.benchmark = True
 
+    debug = True
+    dataset = EgoExoDatasetFromGTJson(
+        release_dir="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo/",
+        annotation_root="/mnt/nfs_csail/models/rli14/data/egoexo/annotations/ego_pose/train/hand/annotation",
+        bbox_npy_root="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0630_egg_and_tomato_full",
+        num_subclips_per_video=2, # clips per batch / video
+        render_debug_frames=False,
+        debug_max_takes=1 if debug else 10,
+        return_full_images=False,
+        allow_takes_with_annotations_only=False,
+        # allowed_take_names=args.allowed_take_names,
+        frames_type_to_use="valid_3d_kp_clips",
+        hand_detector=None,
+        partition_size=None, 
+        early_return_rectified_frames=False,
+        allowed_parent_tasks=["Cooking"],
+        allowed_task_names=["Cooking Tomato & Eggs"],
+        cam_type_to_use="ego",
+        right_hand_bbox_scaler=None,
+        left_hand_bbox_scaler=None,
+        colorjitter_augmentation=True,
+        three_d_keypoints_torch_root="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0708_egg_and_tomato_full_triangulate_retry_reproj14_44_noviz/",#args.three_d_keypoints_torch_root,
+        cached_rgb_dir="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0705_egg_and_tomato_full_rectified_export/",
+        filter_clip_proprio_norm=.05,
+        joint_wrt_cam_cache_dir=args.checkpoint_dir,
+        rectified_ego_focal_length=822, #args.rectified_ego_focal_length,
+        load_cam_data=True
+    )
+
     model = BarlowTwins(args).cuda(gpu)
     model = nn.SyncBatchNorm.convert_sync_batchnorm(model)
     param_weights = []
@@ -121,7 +174,7 @@ def main_worker(gpu, args):
         pin_memory=True, sampler=sampler)
 
     start_time = time.time()
-    scaler = torch.cuda.amp.GradScaler()
+    scaler = torch.amp.GradScaler()
     for epoch in range(start_epoch, args.epochs):
         sampler.set_epoch(epoch)
         for step, ((y1, y2), _) in enumerate(loader, start=epoch * len(loader)):
@@ -129,7 +182,7 @@ def main_worker(gpu, args):
             y2 = y2.cuda(gpu, non_blocking=True)
             adjust_learning_rate(args, optimizer, loader, step)
             optimizer.zero_grad()
-            with torch.cuda.amp.autocast():
+            with torch.amp.autocast():
                 loss = model.forward(y1, y2)
             scaler.scale(loss).backward()
             scaler.step(optimizer)
@@ -185,22 +238,7 @@ def off_diagonal(x):
     assert n == m
     return x.flatten()[:-1].view(n - 1, n + 1)[:, 1:].flatten()
 
-class LanguageActionEncoder(nn.Module):
-    def __init__(self, config):
-        super().__init__()
-        self.config = config
-        self.language_emb = nn.Embedding(config.language_vocab_size, config.language_hidden_dim)
-        self.action_emb = nn.Embedding(config.action_vocab_size, config.action_hidden_dim)
-        self.la_backbone = SiglipEncoder(config)
-        self.post_layernorm = nn.LayerNorm(config.language_hidden_dim + config.action_hidden_dim, eps=config.layer_norm_eps)
-    
-    def forward(self, language_input, action_input):
-        language_emb = self.language_emb(language_input)
-        action_emb = self.action_emb(action_input)
-        la_emb = torch.cat([language_emb, action_emb], dim=1)
-        la_emb = self.la_backbone(la_emb)
-        la_emb = self.post_layernorm(la_emb)
-        return la_emb
+
 
 class BarlowTwins(nn.Module):
     def __init__(self, args):
