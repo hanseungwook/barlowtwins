@@ -835,6 +835,7 @@ class EgoExoDatasetFromGTJson(Dataset):
 
                     rectified_array, principal_points, focal_lengths = undistort_aria_given_device_calib(
                         self.take_name_to_egocam_fisheye_rgb_calibration[take_name], cv2_fisheye_rgb_data[local_frame_idx], "camera-rgb", self.rectified_ego_focal_length, self.rectified_ego_height, self.rectified_ego_width)
+                    import pdb; pdb.set_trace()
 
                 elif cam_name in self.take_name_to_exocams_names[take_name]:
                     # 411 focal length. 1404/512 * 150 = 411
