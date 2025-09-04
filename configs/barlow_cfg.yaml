@@ -1,0 +1,15 @@
+# add a channel where we label with 1s or 0s whether the hand is in the field of view or not
+defaults:
+  - _self_
+
+name: barlow
+
+training:
+  iter_type: egoexo
+  egoexo_action_type: "3d_joints_wrt_cam"
+  normalization_type: "egoexo"
+  load_lerobot_into_memory: false
+
+egoexo_dataset:
+  load_mano_params_from_cache: false
+
