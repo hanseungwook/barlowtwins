@@ -12,4 +12,10 @@ training:
 
 egoexo_dataset:
   load_mano_params_from_cache: false
-
+  # allowed_take_names: ["iiith_cooking_134_2"]
+  allowed_take_names: []
+  length_scale_factor: 10
+  text_annotation_json_path: "/home/swhan/projects/barlowtwins/processed_annotations/take_name_to_timestamp_to_verb_noun_egg_and_tomato.json"
+  three_d_keypoints_torch_root: "/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0708_egg_and_tomato_full_triangulate_retry_reproj14_44_noviz/"
+  num_subclips_per_video: 8
+  sample_clips_with_text_annotations_only: true

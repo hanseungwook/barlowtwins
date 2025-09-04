@@ -255,7 +255,7 @@ class EgoExoDatasetFromGTJson(Dataset):
         # is_valid_take("iiith_cooking_134_2", self.take_name_to_take, self.allowed_parent_tasks, self.allowed_task_names, self.annotation_root, self.allow_takes_with_annotations_only, self.ignore_take_names, self.allowed_take_names, self.has_bbox_npy_bool, rectified_ego_focal_length, self.three_d_keypoints_torch_root, self.cached_rgb_dir)
         for take_name in tqdm.tqdm(sorted([key for key in sorted(self.take_name_to_take.keys()) if self.take_name_to_take[key]['parent_task_name'] in self.allowed_parent_tasks])):           
             if is_valid_take(take_name, self.take_name_to_take, self.allowed_parent_tasks, self.allowed_task_names, self.annotation_root, self.allow_takes_with_annotations_only, self.ignore_take_names, self.allowed_take_names, self.has_bbox_npy_bool, rectified_ego_focal_length, self.three_d_keypoints_torch_root, self.cached_rgb_dir,
-            self.load_mano_params_from_cache, self.sample_clips_with_text_annotations_only, self.text_annotation_json_loaded):
+            self.load_mano_params_from_cache):
                 print("Preparing take", take_name)
 
                 # TODO: filter based on cam type?
@@ -470,12 +470,6 @@ class EgoExoDatasetFromGTJson(Dataset):
         # change this to be proprio
         self.x_min_wrt_cam_running = torch.quantile(torch.cat(x_wrt_cam_collected, axis=0).reshape(-1, 21, 3), q=0.01, dim=0)
         self.x_max_wrt_cam_running = torch.quantile(torch.cat(x_wrt_cam_collected, axis=0).reshape(-1, 21, 3), q=.99, dim=0)
-
-        self.proprio_min_wrt_cam_running = self.x_min_wrt_cam_running
-        self.proprio_max_wrt_cam_running = self.x_max_wrt_cam_running
-
-        self.action_min_wrt_cam_running = self.proprio_min_wrt_cam_running
-        self.action_max_wrt_cam_running = self.proprio_max_wrt_cam_running
 
         assert torch.min(self.x_min_wrt_cam_running) > -2, "If our normalization statistics are less than -2 meters we have a problem"
         assert torch.max(self.x_max_wrt_cam_running) < 2, "If our normalization statistics are greater than 2 meters we have a problem"
@@ -841,6 +835,7 @@ class EgoExoDatasetFromGTJson(Dataset):
 
                     rectified_array, principal_points, focal_lengths = undistort_aria_given_device_calib(
                         self.take_name_to_egocam_fisheye_rgb_calibration[take_name], cv2_fisheye_rgb_data[local_frame_idx], "camera-rgb", self.rectified_ego_focal_length, self.rectified_ego_height, self.rectified_ego_width)
+                    import pdb; pdb.set_trace()
 
                 elif cam_name in self.take_name_to_exocams_names[take_name]:
                     # 411 focal length. 1404/512 * 150 = 411

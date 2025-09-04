@@ -22,7 +22,7 @@ import torchvision
 import torchvision.transforms as transforms
 
 from models import *
-from ego_utils.egodata import EgoExoDatasetFromGTJson
+from ego_utils.egoexo_dataset_from_gt_json import EgoExoDatasetFromGTJson
 
 parser = argparse.ArgumentParser(description='Barlow Twins Training')
 parser.add_argument('data', type=Path, metavar='DIR',

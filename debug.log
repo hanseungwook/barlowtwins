@@ -1,0 +1,5427 @@
+WARNING: You are using a MANO model, with only 10 shape coefficients.
+WARNING: You are using a MANO model, with only 10 shape coefficients.
+Using debug max takes 1
+--------------------------------
+take_name fair_cooking_05_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_05_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_05_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_06_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_06_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_06_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_07_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_07_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_08_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_08_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_08_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_08_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_08_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_09_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_09_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_09_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name fair_cooking_09_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_01_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_01_01_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_01_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_01_02_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_01_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_01_03_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_02_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_02_01_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_02_01_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_02_02_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_02_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_02_02_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_03_01_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_03_01_6
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_03_02_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_03_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_03_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_04_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_04_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_05_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_03_05_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_04_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_04_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_04_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_04_03_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_05_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_05_01_5
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_06_01_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_06_01_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_06_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_06_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_06_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_07_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_08_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_08_01_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_08_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_08_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_09_01_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_09_01_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_09_02_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_09_02_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_10_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_10_01_6
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_10_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_10_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_11_01_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_11_01_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_11_02_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_11_02_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_12_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_12_01_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name georgiatech_cooking_12_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_12_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_13_01_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_13_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_13_02_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_01_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_01_6
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_02_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_02_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_02_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name georgiatech_cooking_14_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_01_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_02_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_02_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_03_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_03_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_04_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_05_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_05_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_05_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_06_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_07_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_08_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_09_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_100_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_100_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_103_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_103_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_103_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_104_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_104_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_106_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_106_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_107_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_107_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_108_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_108_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_108_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_109_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_109_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_109_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_10_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_110_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_110_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_111_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_111_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_111_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_112_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_112_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_112_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_113_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_113_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_113_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_115_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_115_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_115_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_116_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_116_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_116_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_117_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_117_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_118_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_11_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_120_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_120_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_120_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_122_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_122_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_123_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_123_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_123_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_124_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_124_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_124_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_125_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_125_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_125_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_126_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_126_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_128_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_128_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_129_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_129_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_12_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_130_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_130_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_131_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_131_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_132_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_132_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_134_2
+parent_task_condition True
+task_condition True
+allowed_take_condition True
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_135_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_136_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_137_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_138_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_13_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_141_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_142_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_142_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_143_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_145_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_146_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_147_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_148_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_149_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name iiith_cooking_14_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_15_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_16_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_17_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_18_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_19_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_20_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_22_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_23_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_24_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_25_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_25_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_26_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_27_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_27_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_28_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_29_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_29_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_30_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_31_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_31_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_32_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_33_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_34_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_35_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_36_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_37_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_37_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_38_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_39_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_39_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_40_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_41_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_41_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_42_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_43_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_43_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_44_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_45_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_45_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_46_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_47_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_48_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_49_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_50_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_50_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_52_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_52_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_53_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_54_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_54_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_55_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_56_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_57_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_57_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_58_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_58_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_59_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_60_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_60_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_61_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_61_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_61_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_62_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_62_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_62_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_63_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_63_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_63_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_64_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_65_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_65_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_66_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_66_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_66_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_67_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_67_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_67_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_68_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_68_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_68_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_69_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_69_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_69_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_70_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_70_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_70_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_71_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_71_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_71_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_72_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_72_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_72_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_74_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_74_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_74_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_75_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_76_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_76_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_77_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_78_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_79_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_80_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_81_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_82_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_84_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_84_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_85_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_87_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_87_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_87_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_89_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_89_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_89_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_90_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_90_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_91_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_92_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_93_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_93_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_93_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_96_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_97_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_98_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_98_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_98_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_99_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name iiith_cooking_99_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_01_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_01_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_03_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_03_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_04_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_04_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_06_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_06_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_07_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_07_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_08_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_08_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_08_6
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_09_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_10_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_10_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_10_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_10_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_11_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_11_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_11_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_11_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_12_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_12_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_12_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_13_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_14_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_14_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_14_5
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_14_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_16_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_16_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_17_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_17_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_17_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_17_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_18_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_18_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_19_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_19_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_20_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_20_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_20_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name indiana_cooking_20_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_21_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_21_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_21_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_21_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_22_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_22_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_22_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_22_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_23_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_23_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_23_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_23_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_24_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_24_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_25_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_25_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_26_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_26_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_26_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name indiana_cooking_27_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_010_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_010_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_011_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_021_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_022_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_022_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_023_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_023_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_023_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_024_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_030_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_030_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_031_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_031_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_032_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_032_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_040_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_040_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_040_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_050_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_050_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_060_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_060_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_061_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_070_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name minnesota_cooking_074_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_06_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_06_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_06_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_06_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_07_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_07_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_07_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_07_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_09_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_09_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_09_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_09_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_10_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_10_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_10_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_10_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_12_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_12_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_12_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_12_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_13_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_13_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_13_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_13_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_15_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_15_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_15_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_15_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_16_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_16_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_16_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_16_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_17_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_17_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_17_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name nus_cooking_17_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking015_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking015_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking015_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking017_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking017_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking017_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking017_9
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking020_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking020_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking020_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking020_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking022_11
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking022_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking022_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking022_9
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking023_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking023_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking023_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking023_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking024_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking024_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking024_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking024_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking025_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking025_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking025_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking025_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking026_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking026_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking026_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking026_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking027_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking027_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking027_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking027_9
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking028_12
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking028_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking028_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking028_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking029_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking029_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking029_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking029_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking030_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking030_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking030_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_10
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_7
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking031_9
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking032_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking032_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking032_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_001_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_001_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_002_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_002_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_002_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_002_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_003_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_003_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_003_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_004_1
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_004_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_004_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_005_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_005_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_005_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_005_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_006_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_007_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_007_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_007_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_007_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_008_1
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_008_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_008_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_009_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_009_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_009_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_009_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_010_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_010_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_010_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_010_7
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_011_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_011_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_011_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_012_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_012_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_012_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_012_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_013_1
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name sfu_cooking_013_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_001_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_001_12
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_001_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_001_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_001_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_12
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_002_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_13
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_6
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_003_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_004_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_004_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_004_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_004_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_12
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_005_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_006_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_006_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_006_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_006_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_006_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_007_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_007_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_007_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_007_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_008_10
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_008_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_008_8
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_009_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_009_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name uniandes_cooking_009_6
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0628_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0630_Cooking_2_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0630_Cooking_3_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0630_Cooking_4_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name upenn_0630_Cooking_4_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0630_Cooking_4_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_1_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name upenn_0702_Cooking_1_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_1_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_2_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_2_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_3_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_3_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_4_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name upenn_0702_Cooking_4_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_5_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0702_Cooking_5_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_1_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_2_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_2_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_4_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0710_Cooking_4_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_2_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_2_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_2_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_3_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_3_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_3_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_3_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_4_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_5_2
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_5_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_5_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_6_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_6_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_6_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0711_Cooking_6_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_1_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_1_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_1_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_2_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_2_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found True
+--------------------------------
+take_name upenn_0712_Cooking_3_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_3_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_4_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_4_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_5_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0712_Cooking_5_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0713_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0713_Cooking_1_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0713_Cooking_2_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0713_Cooking_2_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_1_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_1_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_1_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_1_5
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_2_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_2_4
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_3_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_3_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_5_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_5_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_6_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_6_3
+parent_task_condition True
+task_condition True
+allowed_take_condition False
+has_3d_keypoints True
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_7_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name upenn_0714_Cooking_7_3
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_11_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_11_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_12_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_12_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_3_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_3_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_4_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_4_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_5_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_5_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_6_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_6_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_9_1001_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_omelet_9_1001_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_10_1018_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_10_1018_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_11_1018_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_11_1018_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_12_1018_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_12_1018_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_4_1018_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_salad_4_1018_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_10_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_10_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_12_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_12_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_1_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_1_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_4_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_4_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_6_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_6_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_8_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_8_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_9_1008_2
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False
+--------------------------------
+take_name utokyo_sushi_9_1008_4
+parent_task_condition True
+task_condition False
+allowed_take_condition False
+has_3d_keypoints False
+has_rectified_video False
+mano_fiile_found False

@@ -166,7 +166,7 @@ def main_worker(gpu, args):
             length_scale_factor=cfg.egoexo_dataset.length_scale_factor,
             text_annotation_json_path=cfg.egoexo_dataset.text_annotation_json_path,
             max_period_to_associate_timestamp=5,
-            sample_clips_with_text_annotations_only=True,
+            sample_clips_with_text_annotations_only=cfg.egoexo_dataset.sample_clips_with_text_annotations_only,
             load_mano_params_from_cache=cfg.egoexo_dataset.load_mano_params_from_cache
         )
     else:
@@ -536,7 +536,7 @@ def main_worker(gpu, args):
                     egoexo_batch = train_util.collate_batches_egoexo_dataset(batch_queue, None, expand_to_match_two_hands=False, index_with_bbox_presence=False)
                     end_time = time.perf_counter()
                     print(f"Egoexo batch collate time: {end_time - start_time} seconds")
-                    print(f"Time to first batch start: {time.perf_counter() - time_to_first_batch_start} seconds")
+                    # print(f"Time to first batch start: {time.perf_counter() - time_to_first_batch_start} seconds")
 
                     time_to_first_batch_start = time.perf_counter()
 
@@ -616,6 +616,25 @@ def main_worker(gpu, args):
             # """
             # End domain randomization logic
             # """
+
+            """
+            Pull actions wrt to cam from batch
+            """
+            if iter_type == "egoexo" or iter_type == "both":
+                # TODO: this is temporary because we still load all the batches even if the embodiment loss weight is 0
+                ln714_time = time.perf_counter()
+                # egoexo_batch = {k: v.to(next(model.parameters()).device) if isinstance(v, torch.Tensor) else v for k, v in egoexo_batch.items()}
+                print(f"ln714 time: {time.perf_counter() - ln714_time}")
+                # model predict action does forward rollouts
+                # need to convert world kp to camera frame kp
+                # -> batch_size, 1, 21*3 -> batch_size, 1, 63
+                ln720_time = time.perf_counter()
+                egoexo_nproprio = train_util.get_nproprio_from_batch(egoexo_batch, torch.bfloat16, args.accumulation_steps * cfg.egoexo_dataset.num_subclips_per_video, 'cpu', egoexo_source_dataset.proprio_min_wrt_cam_running, egoexo_source_dataset.proprio_max_wrt_cam_running, cfg.training.egoexo_action_type).to(torch.bfloat16)
+                print(f"ln720 time: {time.perf_counter() - ln720_time}")
+                # -> batch_size, horizon-1, 21*3 
+                ln723_time = time.perf_counter()
+                egoexo_nactions = train_util.get_nactions_from_batch(egoexo_batch, torch.bfloat16, args.accumulation_steps * cfg.egoexo_dataset.num_subclips_per_video, 'cpu', egoexo_source_dataset.action_min_wrt_cam_running, egoexo_source_dataset.action_max_wrt_cam_running, cfg.training.egoexo_action_type).to(torch.bfloat16)
+                print(f"ln723 time: {time.perf_counter() - ln723_time}")
 
             if iter_type == "robot" and cfg.training.load_lerobot_into_memory:
                 # if we doing robot only, the egoexo batch  is None (but it should be set Before?)

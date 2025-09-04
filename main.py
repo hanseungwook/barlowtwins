@@ -118,6 +118,10 @@ def main_worker(gpu, args):
         dataset, batch_size=per_device_batch_size, num_workers=args.workers,
         pin_memory=True, sampler=sampler)
 
+
+    # TODO: replace dataset and dataloader for VLA
+    
+
     start_time = time.time()
     scaler = torch.cuda.amp.GradScaler()
     for epoch in range(start_epoch, args.epochs):
@@ -127,7 +131,7 @@ def main_worker(gpu, args):
             y2 = y2.cuda(gpu, non_blocking=True)
             adjust_learning_rate(args, optimizer, loader, step)
             optimizer.zero_grad()
-            with torch.cuda.amp.autocast():
+            with torch.autocast():
                 loss = model.forward(y1, y2)
             scaler.scale(loss).backward()
             scaler.step(optimizer)

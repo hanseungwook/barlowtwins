@@ -131,9 +131,9 @@ def get_nproprio_from_batch(batch, dtype, batch_size, device, x_min, x_max, acti
     nproprio = 2*(uproprio - x_min.to(device)) / (x_max.to(device) - x_min.to(device)) - 1
 
     if action_type == "3d_joints_wrt_cam":
-        return nproprio.view(batch_size, proprio_num_steps, 63)
+        return nproprio.reshape(batch_size, proprio_num_steps, 63)
     else:
-        return nproprio.view(batch_size, proprio_num_steps, 10)
+        return nproprio.reshape(batch_size, proprio_num_steps, 10)
 
 def get_nactions_from_batch(batch, dtype, batch_size, device, x_min, x_max, action_type):
     # action_wrt_world = batch['ego_keypoint_3d_wrtworld_tensor'][:, 1:, 1, :, :]
@@ -151,9 +151,9 @@ def get_nactions_from_batch(batch, dtype, batch_size, device, x_min, x_max, acti
     nactions = 2*(uactions - x_min.to(device)) / (x_max.to(device) - x_min.to(device)) - 1
 
     if action_type == "3d_joints_wrt_cam":
-        return nactions.view(batch_size, action_num_steps, 63)
+        return nactions.reshape(batch_size, action_num_steps, 63)
     else:
-        return nactions.view(batch_size, action_num_steps, 10)
+        return nactions.reshape(batch_size, action_num_steps, 10)
 
 def normalize_tensor_3dplus(tensor_3d, x_min, x_max):
     # TODO: rename this, actually normalizes anything
@@ -234,7 +234,7 @@ def collate_batches_lerobot_dataset(batch_list):
             raise NotImplementedError(f"Key {key} not implemented for lerobot dataset")
     return out_batch
 
-def collate_batches_egoexo_dataset(batch_list, partition_size, expand_to_match_two_hands=True, index_with_bbox_presence=True, keys_to_collate=set(["rgb_cached_frames", "ego_keypoint_3d_wrtworld_tensor", "mano_params_tensor", "pseudogripper_wrt_world_10d_proprio", "pseudogripper_wrt_world_10d_action", "aria_cam_wrt_world"])):
+def collate_batches_egoexo_dataset(batch_list, partition_size, expand_to_match_two_hands=True, index_with_bbox_presence=True, keys_to_collate=set(["rgb_cached_frames", "ego_keypoint_3d_wrtworld_tensor", "mano_params_tensor", "pseudogripper_wrt_world_10d_proprio", "pseudogripper_wrt_world_10d_action", "aria_cam_wrt_world", "text_labels", "take_name"])):
     # input: list of samples
     # output: combine that list into a dictionary of samples
 
