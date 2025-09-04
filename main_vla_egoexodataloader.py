@@ -21,6 +21,8 @@ from torch import nn, optim
 import torch
 import torchvision
 import torchvision.transforms as transforms
+from torch.utils.data import Subset, DataLoader
+
 
 from models import *
 # from ego_utils.egodata import EgoExoDatasetFromGTJson
@@ -29,6 +31,8 @@ from omegaconf import DictConfig
 from omegaconf import OmegaConf, open_dict
 import train_util
 import iter_util
+
+from torchvision.transforms.functional import to_pil_image
 
 parser = argparse.ArgumentParser(description='Barlow Twins Training')
 parser.add_argument('data', type=Path, metavar='DIR',
@@ -79,7 +83,7 @@ parser.add_argument('--rectified-ego-focal-length', default=822, type=int, metav
 
 parser.add_argument("config", type=Path, metavar='CONFIG',
                     help='path to config file')
-parser.add_argument('--accumulation_steps', default=16, type=int)
+parser.add_argument('--accumulation_steps', default=8, type=int)
 parser.add_argument('--num_workers', default=8, type=int)
                     
 
@@ -134,15 +138,15 @@ def main_worker(gpu, args):
    
     if iter_type in ["egoexo", "both"]:
         egoexo_source_dataset = EgoExoDatasetFromGTJson(
-            release_dir="/data/pulkitag/hamer_diffusion_policy_project/datasets/egoexo/",
-            annotation_root="/data/pulkitag/models/rli14/data/egoexo/annotations/ego_pose/train/hand/annotation",
-            bbox_npy_root="/data/pulkitag/hamer_diffusion_policy_project/datasets/egoexo_generated/0630_egg_and_tomato_full",
-            num_subclips_per_video=args.num_subclips_per_video, # clips per batch / video
+            release_dir="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo/",
+            annotation_root="/mnt/nfs_csail/models/rli14/data/egoexo/annotations/ego_pose/train/hand/annotation",
+            bbox_npy_root="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0630_egg_and_tomato_full",
+            num_subclips_per_video=cfg.egoexo_dataset.num_subclips_per_video, # clips per batch / video
             render_debug_frames=False,
             debug_max_takes=args.debug_max_takes,
             return_full_images=False,
             allow_takes_with_annotations_only=False,
-            allowed_take_names=args.allowed_take_names,
+            allowed_take_names=cfg.egoexo_dataset.allowed_take_names,
             frames_type_to_use="valid_3d_kp_clips",
             hand_detector=None,
             partition_size=None, 
@@ -153,14 +157,14 @@ def main_worker(gpu, args):
             right_hand_bbox_scaler=None,
             left_hand_bbox_scaler=None,
             # colorjitter_augmentation=False,
-            three_d_keypoints_torch_root=args.three_d_keypoints_torch_root,
-            cached_rgb_dir="/data/pulkitag/hamer_diffusion_policy_project/datasets/egoexo_generated/0705_egg_and_tomato_full_rectified_export/",
+            three_d_keypoints_torch_root=cfg.egoexo_dataset.three_d_keypoints_torch_root,
+            cached_rgb_dir="/mnt/nfs_csail/hamer_diffusion_policy_project/datasets/egoexo_generated/0705_egg_and_tomato_full_rectified_export/",
             filter_clip_proprio_norm=.05,
             joint_wrt_cam_cache_dir=args.checkpoint_dir,
             rectified_ego_focal_length=args.rectified_ego_focal_length,
             load_cam_data=True,
-            length_scale_factor=args.length_scale_factor,
-            text_annotation_json_path=args.text_annotation_json_path,
+            length_scale_factor=cfg.egoexo_dataset.length_scale_factor,
+            text_annotation_json_path=cfg.egoexo_dataset.text_annotation_json_path,
             max_period_to_associate_timestamp=5,
             sample_clips_with_text_annotations_only=True,
             load_mano_params_from_cache=cfg.egoexo_dataset.load_mano_params_from_cache
@@ -266,7 +270,7 @@ def main_worker(gpu, args):
 
 
         # generate the training and validaton subsets from the source dataset using the sampled indices
-        egoexo_train_dataset = Subset(egoexo_source_dataset, indices=train_util.multiples_up_to(egoexo_train_indices.tolist(), args.length_scale_factor))
+        egoexo_train_dataset = Subset(egoexo_source_dataset, indices=train_util.multiples_up_to(egoexo_train_indices.tolist(), cfg.egoexo_dataset.length_scale_factor))
         egoexo_val_dataset = Subset(egoexo_source_dataset, indices=egoexo_val_indices.tolist())
 
         # the action type
@@ -279,7 +283,9 @@ def main_worker(gpu, args):
 
         # calculate normalization parameters
         if cfg.training.egoexo_action_type == "3d_joints_wrt_cam":
-            egoexo_proprio_wrt_cam_collected, egoexo_action_wrt_cam_collected = egoexo_source_dataset.set_joints_wrt_cam_normalization_from_take_names(egoexo_train_take_names)
+            # TODO: this is a hack for human data b/c they are equal, but not true in robot data
+            egoexo_action_wrt_cam_collected = egoexo_source_dataset.set_joints_wrt_cam_normalization_from_take_names(egoexo_train_take_names)
+            egoexo_proprio_wrt_cam_collected = egoexo_action_wrt_cam_collected
         elif cfg.training.egoexo_action_type == "pseudogripper_10d":
             egoexo_proprio_wrt_cam_collected, egoexo_action_wrt_cam_collected = egoexo_source_dataset.set_pseudogripper_10d_normalization_from_take_names(egoexo_train_take_names)
         else:
@@ -457,42 +463,47 @@ def main_worker(gpu, args):
     torch.cuda.set_device(gpu)
     torch.backends.cudnn.benchmark = True
 
-    debug = True
-    model = BarlowTwins(args).cuda(gpu)
-    model = nn.SyncBatchNorm.convert_sync_batchnorm(model)
-    param_weights = []
-    param_biases = []
-    for param in model.parameters():
-        if param.ndim == 1:
-            param_biases.append(param)
-        else:
-            param_weights.append(param)
-    parameters = [{'params': param_weights}, {'params': param_biases}]
-    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[gpu])
-    optimizer = LARS(parameters, lr=0, weight_decay=args.weight_decay,
-                     weight_decay_filter=True,
-                     lars_adaptation_filter=True)
+    # TODO: commented out for debugging
+    # debug = True
+    # model = BarlowTwins(args).cuda(gpu)
+    # model = nn.SyncBatchNorm.convert_sync_batchnorm(model)
+    # param_weights = []
+    # param_biases = []
+    # for param in model.parameters():
+    #     if param.ndim == 1:
+    #         param_biases.append(param)
+    #     else:
+    #         param_weights.append(param)
+    # parameters = [{'params': param_weights}, {'params': param_biases}]
+    # model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[gpu])
+    # optimizer = LARS(parameters, lr=0, weight_decay=args.weight_decay,
+    #                  weight_decay_filter=True,
+    #                  lars_adaptation_filter=True)
 
-    # automatically resume from checkpoint if it exists
-    if (args.checkpoint_dir / 'checkpoint.pth').is_file():
-        ckpt = torch.load(args.checkpoint_dir / 'checkpoint.pth',
-                          map_location='cpu')
-        start_epoch = ckpt['epoch']
-        model.load_state_dict(ckpt['model'])
-        optimizer.load_state_dict(ckpt['optimizer'])
-    else:
-        start_epoch = 0
+    # # automatically resume from checkpoint if it exists
+    # if (args.checkpoint_dir / 'checkpoint.pth').is_file():
+    #     ckpt = torch.load(args.checkpoint_dir / 'checkpoint.pth',
+    #                       map_location='cpu')
+    #     start_epoch = ckpt['epoch']
+    #     model.load_state_dict(ckpt['model'])
+    #     optimizer.load_state_dict(ckpt['optimizer'])
+    # else:
+    #     start_epoch = 0
 
-    dataset = torchvision.datasets.ImageFolder(args.data / 'train', Transform())
-    # sampler = torch.utils.data.distributed.DistributedSampler(dataset)
-    assert args.batch_size % args.world_size == 0
-    per_device_batch_size = args.batch_size // args.world_size
-    loader = torch.utils.data.DataLoader(
-        dataset, batch_size=per_device_batch_size, num_workers=args.workers,
-        pin_memory=True, sampler=sampler)
+    # dataset = torchvision.datasets.ImageFolder(args.data / 'train', Transform())
+    # # sampler = torch.utils.data.distributed.DistributedSampler(dataset)
+    # assert args.batch_size % args.world_size == 0
+    # per_device_batch_size = args.batch_size // args.world_size
+    # loader = torch.utils.data.DataLoader(
+    #     dataset, batch_size=per_device_batch_size, num_workers=args.workers,
+    #     pin_memory=True, sampler=sampler)
 
-    start_time = time.time()
-    scaler = torch.amp.GradScaler()
+    # start_time = time.time()
+    # scaler = torch.amp.GradScaler()
+    
+    start_epoch = 0
+    lerobot_train_dataloader = None
+
     for epoch in range(start_epoch, args.epochs):
         # sampler.set_epoch(epoch)
 
@@ -500,7 +511,7 @@ def main_worker(gpu, args):
         # then collate them after % accumulation_steps
         valid_batch_counter = 0
 
-        for batch_idx, batch in enumerate(iter_batches(iter_type, egoexo_dataloader, lerobot_train_dataloader)):
+        for batch_idx, batch in enumerate(iter_util.iter_batches(iter_type, egoexo_dataloader, lerobot_train_dataloader, cfg)):
             """
             Start batch collation logic.
                 We parallelize batch retrieval in the num_workers, then collate them after % accumulation_steps
@@ -522,7 +533,7 @@ def main_worker(gpu, args):
                     # time the egoexo batch collate
                     start_time = time.perf_counter()
 
-                    egoexo_batch = collate_batches_egoexo_dataset(batch_queue, None, expand_to_match_two_hands=False, index_with_bbox_presence=False)
+                    egoexo_batch = train_util.collate_batches_egoexo_dataset(batch_queue, None, expand_to_match_two_hands=False, index_with_bbox_presence=False)
                     end_time = time.perf_counter()
                     print(f"Egoexo batch collate time: {end_time - start_time} seconds")
                     print(f"Time to first batch start: {time.perf_counter() - time_to_first_batch_start} seconds")
@@ -614,34 +625,35 @@ def main_worker(gpu, args):
 
 
 
+    # TODO: have to fix training loop
         # for step, ((y1, y2), _) in enumerate(loader, start=epoch * len(loader)):
-            y1 = y1.cuda(gpu, non_blocking=True)
-            y2 = y2.cuda(gpu, non_blocking=True)
-            adjust_learning_rate(args, optimizer, loader, step)
-            optimizer.zero_grad()
-            with torch.amp.autocast():
-                loss = model.forward(y1, y2)
-            scaler.scale(loss).backward()
-            scaler.step(optimizer)
-            scaler.update()
-            if step % args.print_freq == 0:
-                if args.rank == 0:
-                    stats = dict(epoch=epoch, step=step,
-                                 lr_weights=optimizer.param_groups[0]['lr'],
-                                 lr_biases=optimizer.param_groups[1]['lr'],
-                                 loss=loss.item(),
-                                 time=int(time.time() - start_time))
-                    print(json.dumps(stats))
-                    print(json.dumps(stats), file=stats_file)
-        if args.rank == 0:
-            # save checkpoint
-            state = dict(epoch=epoch + 1, model=model.state_dict(),
-                         optimizer=optimizer.state_dict())
-            torch.save(state, args.checkpoint_dir / 'checkpoint.pth')
-    if args.rank == 0:
-        # save final model
-        torch.save(model.module.backbone.state_dict(),
-                   args.checkpoint_dir / 'resnet50.pth')
+    #         y1 = y1.cuda(gpu, non_blocking=True)
+    #         y2 = y2.cuda(gpu, non_blocking=True)
+    #         adjust_learning_rate(args, optimizer, loader, step)
+    #         optimizer.zero_grad()
+    #         with torch.amp.autocast():
+    #             loss = model.forward(y1, y2)
+    #         scaler.scale(loss).backward()
+    #         scaler.step(optimizer)
+    #         scaler.update()
+    #         if step % args.print_freq == 0:
+    #             if args.rank == 0:
+    #                 stats = dict(epoch=epoch, step=step,
+    #                              lr_weights=optimizer.param_groups[0]['lr'],
+    #                              lr_biases=optimizer.param_groups[1]['lr'],
+    #                              loss=loss.item(),
+    #                              time=int(time.time() - start_time))
+    #                 print(json.dumps(stats))
+    #                 print(json.dumps(stats), file=stats_file)
+    #     if args.rank == 0:
+    #         # save checkpoint
+    #         state = dict(epoch=epoch + 1, model=model.state_dict(),
+    #                      optimizer=optimizer.state_dict())
+    #         torch.save(state, args.checkpoint_dir / 'checkpoint.pth')
+    # if args.rank == 0:
+    #     # save final model
+    #     torch.save(model.module.backbone.state_dict(),
+    #                args.checkpoint_dir / 'resnet50.pth')
 
 
 def adjust_learning_rate(args, optimizer, loader, step):
