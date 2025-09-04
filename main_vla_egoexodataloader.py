@@ -14,6 +14,7 @@ import signal
 import subprocess
 import sys
 import time
+import datetime
 
 from PIL import Image, ImageOps, ImageFilter
 from torch import nn, optim
@@ -149,7 +150,7 @@ def main_worker(gpu, args):
             three_d_keypoints_torch_root=args.three_d_keypoints_torch_root,
             cached_rgb_dir="/data/pulkitag/hamer_diffusion_policy_project/datasets/egoexo_generated/0705_egg_and_tomato_full_rectified_export/",
             filter_clip_proprio_norm=.05,
-            joint_wrt_cam_cache_dir=checkpoint_dir,
+            joint_wrt_cam_cache_dir=args.checkpoint_dir,
             rectified_ego_focal_length=args.rectified_ego_focal_length,
             load_cam_data=True,
             length_scale_factor=args.length_scale_factor,
@@ -182,8 +183,8 @@ def main_worker(gpu, args):
     #     lerobot_normalization_params_path = args.resume_checkpoint.replace(os.path.basename(args.resume_checkpoint), f"{cfg.training.normalization_type}_normalization_params.pt")
     #     lerobot_normalization_dict = torch.load(lerobot_normalization_params_path)
     # else:
-    #     lerobot_normalization_dict = compute_lerobot_normalization(lerobot_train_dataset, calib)
-        lerobot_action_min, lerobot_action_max, lerobot_proprio_min, lerobot_proprio_max = lerobot_normalization_dict["lerobot_action_min"], lerobot_normalization_dict["lerobot_action_max"], lerobot_normalization_dict["lerobot_proprio_min"], lerobot_normalization_dict["lerobot_proprio_max"]
+        # lerobot_normalization_dict = compute_lerobot_normalization(lerobot_train_dataset, calib)
+    # lerobot_action_min, lerobot_action_max, lerobot_proprio_min, lerobot_proprio_max = lerobot_normalization_dict["lerobot_action_min"], lerobot_normalization_dict["lerobot_action_max"], lerobot_normalization_dict["lerobot_proprio_min"], lerobot_normalization_dict["lerobot_proprio_max"]
 
     # at this point, normalization parameters should be calculated
     # TODO: save them to the checkpoint dir
