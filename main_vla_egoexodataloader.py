@@ -280,6 +280,7 @@ def main_worker(gpu, args):
         # calculate normalization parameters
         if cfg.training.egoexo_action_type == "3d_joints_wrt_cam":
             egoexo_proprio_wrt_cam_collected, egoexo_action_wrt_cam_collected = egoexo_source_dataset.set_joints_wrt_cam_normalization_from_take_names(egoexo_train_take_names)
+
         elif cfg.training.egoexo_action_type == "pseudogripper_10d":
             egoexo_proprio_wrt_cam_collected, egoexo_action_wrt_cam_collected = egoexo_source_dataset.set_pseudogripper_10d_normalization_from_take_names(egoexo_train_take_names)
         else:
@@ -605,6 +606,25 @@ def main_worker(gpu, args):
             # """
             # End domain randomization logic
             # """
+
+            """
+            Pull actions wrt to cam from batch
+            """
+            if iter_type == "egoexo" or iter_type == "both":
+                # TODO: this is temporary because we still load all the batches even if the embodiment loss weight is 0
+                ln714_time = time.perf_counter()
+                egoexo_batch = {k: v.to(next(model.parameters()).device) if isinstance(v, torch.Tensor) else v for k, v in egoexo_batch.items()}
+                print(f"ln714 time: {time.perf_counter() - ln714_time}")
+                # model predict action does forward rollouts
+                # need to convert world kp to camera frame kp
+                # -> batch_size, 1, 21*3 -> batch_size, 1, 63
+                ln720_time = time.perf_counter()
+                egoexo_nproprio = get_nproprio_from_batch(egoexo_batch, dtype, egoexo_batch_size, next(model.parameters()).device, egoexo_source_dataset.proprio_min_wrt_cam_running, egoexo_source_dataset.proprio_max_wrt_cam_running, cfg.training.egoexo_action_type).to(dtype)
+                print(f"ln720 time: {time.perf_counter() - ln720_time}")
+                # -> batch_size, horizon-1, 21*3 
+                ln723_time = time.perf_counter()
+                egoexo_nactions = get_nactions_from_batch(egoexo_batch, dtype, egoexo_batch_size, next(model.parameters()).device, egoexo_source_dataset.action_min_wrt_cam_running, egoexo_source_dataset.action_max_wrt_cam_running, cfg.training.egoexo_action_type).to(dtype)
+                print(f"ln723 time: {time.perf_counter() - ln723_time}")
 
             if iter_type == "robot" and cfg.training.load_lerobot_into_memory:
                 # if we doing robot only, the egoexo batch  is None (but it should be set Before?)
